@@ -10,6 +10,11 @@
         <header class="page-header">
             <div class="container">
                 <h1><a href="/">Empty Space Blog</a></h1>
+                {% if user.is_authenticated %}
+                    <a href="{% url 'post_new' %}" class="top-menu">
+                        {% include './icons/file-earmark-plus.svg' %}
+                    </a>
+                {% endif %}
             </div>
         </header>
 
@@ -23,7 +28,6 @@
         </main>
 
 
-    <p>If you're seeing this, you're not supposed to be here!</p>
-    <p>This is not an elevator.<br><br><br><br><br><br><br> .....YET</p>
+    <p>If you're seeing this, you're not supposed to be here!<br>This is not an elevator.<br> .....YET</p>
 </body>
 </html>

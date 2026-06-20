@@ -49,6 +49,7 @@ a {
 .post-form textarea,
 .post-form input {
     width: 100%;
+    background-color: #0d5a3a;
 }
 
 .top-menu,
