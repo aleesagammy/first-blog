@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "ByteBounce";
+    src: url("fonts/ByteBounce.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #000000;
+    color: #29925d;
+    font-family: "ByteBounce", 'Courier New', Courier, monospace;
+    padding-left: 15px;
+}
+
+h1, h2 {
+    color: #29925d;
+}
+
+a {
+    text-decoration: none;
+    color: #5ef495;
+}
+
+.page-header {
+    background-color: #0d5a3a;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #3fd877;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #55ffb0;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a,
+.post h2 a:visited {
+    color: #067f4d;
+}
+
+.post > .date,
+.post > .actions {
+    float: right;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #00c254;
+    background: none;
+    border-color: #007b08;
+    margin-left: 15px;
+}
+
+.btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: #07672a;
+}
